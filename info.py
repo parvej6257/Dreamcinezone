@@ -79,15 +79,15 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 DREAMCINEZONE_VERIFY_EXPIRE = int(environ.get('DREAMCINEZONE_VERIFY_EXPIRE', 24))  # Add time in hours
 DREAMCINEZONE_VERIFIED_LOG = int(environ.get('DREAMCINEZONE_VERIFIED_LOG', '-1002413284040'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/dreamcinezone')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/TP_BACKUP/99')  # How to open tutorial link for verification
 
 # ============================
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd73e70a35dc3877fa14afbf51fa8ec312c94780c')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/dreamcinezone')  # Tutorial video link for opening shortlink website
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'teraboxlinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '9a8377b07c18cbbf128d6c3eb9a6dc158fe3d50c')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TP_BACKUP/99')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 # ============================
@@ -176,9 +176,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "https://graceful-danice-parvejtp-7fd09005.koyeb.app/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "https://graceful-danice-parvejtp-7fd09005.koyeb.app/".format(FQDN)
 
 # ============================
 # Reactions Configuration
