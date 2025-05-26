@@ -178,7 +178,7 @@ HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
     URL = "https://graceful-danice-parvejtp-7fd09005.koyeb.app/".format(FQDN)
 else:
-    URL = "https://graceful-danice-parvejtp-7fd09005.koyeb.app/".format(FQDN)
+    URL = "http://graceful-danice-parvejtp-7fd09005.koyeb.app/".format(FQDN)
 
 # ============================
 # Reactions Configuration
