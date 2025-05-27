@@ -271,7 +271,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/TP_BACKUP">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/TP_BACKUP>[Dreamcine_Botz]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/TP_BACKUP">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/TP_BACKUP">[Parvej_Botz]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
